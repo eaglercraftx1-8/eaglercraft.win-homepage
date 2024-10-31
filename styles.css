@@ -8,7 +8,7 @@
 /* Body Styling */
 body {
   font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
+  background-color: #f1f1f1;
   color: #333;
   line-height: 1.6;
   padding: 20px;
@@ -42,17 +42,20 @@ h4 {
 /* Link Block Styling */
 .link-block {
   display: block;
-  background-color: #007BFF;
-  color: #fff;
+  background-color: #4caf50;
+  color: #f1f1f1;
   padding: 10px;
   margin-bottom: 10px;
   border-radius: 4px;
   text-decoration: none;
   transition: background-color 0.3s ease;
+  transition: transform 0.3s ease;
+  
 }
 
 .link-block:hover {
-  background-color: #0056b3;
+  background-color: #5caf90;
+  transform: scale(1.1);
 }
 
 .link-block p {
